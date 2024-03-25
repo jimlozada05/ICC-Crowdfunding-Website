@@ -1,0 +1,70 @@
+/* CSS Document */
+.navbar{
+	background-color:#CFF4D2;
+	filter: drop-shadow(0 0 3px green);
+	height: 15vh;
+}
+.navbar a{
+	color: #205072;
+}
+.navbar a:hover{
+	color: #7BE495;
+}
+.btn-login{
+	color: #205072;
+	border-color: #205072;
+}
+.btn-login:hover{
+	color: white;
+	border-color: #7BE495;
+	background-color: #7BE495;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+	color: #205072;
+	background-color: Transparent;
+	border-color: Transparent;
+	cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus, .dropbtn:active{
+	color: 7BE495;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block; 
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #CFF4D2;
+  min-width: 160px;
+  left: -15vh;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #205072;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+section{
+	width: 85%;
+	margin: auto;
+	padding-top: 5vh;
+}
+.img-thumbnail{
+	width: 300px;
+	height: 200px;
+}
+.card:hover{
+	box-shadow: 0 0 2vh rgb(123, 228, 149);
+}
